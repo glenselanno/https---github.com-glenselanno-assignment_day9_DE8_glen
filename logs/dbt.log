@@ -1,0 +1,28 @@
+[0m20:05:05.355939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A5E8C62D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A60D249B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A5B082000>]}
+
+
+============================== 20:05:05.355939 | 198d02e6-497b-4aaf-b8d5-294e7ed29fd4 ==============================
+[0m20:05:05.355939 [info ] [MainThread]: Running with dbt=1.8.9
+[0m20:05:05.355939 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\glens\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:05:12.694965 [debug] [MainThread]: Starter project path: D:\Data Engineering Class\Assignment\dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m20:05:12.737230 [info ] [MainThread]: 
+Your new dbt project "dibimbing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:05:12.737230 [info ] [MainThread]: Setting up your profile.
+[0m20:09:26.928609 [info ] [MainThread]: Profile dibimbing written to C:\Users\glens\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:09:26.936793 [debug] [MainThread]: Command `dbt init` succeeded at 20:09:26.935779 after 261.74 seconds
+[0m20:09:26.938008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A60C39A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A5AC559A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A5D409520>]}
+[0m20:09:26.938835 [debug] [MainThread]: Flushing usage events
